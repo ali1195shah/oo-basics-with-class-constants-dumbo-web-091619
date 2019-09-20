@@ -7,9 +7,6 @@ class Shoe
   def initialize(brand)
     @brand = brand
   end
-  
-  def brands=(shoe_brand)
-  end
 
   def cobble
     self.condition = "new"
